@@ -13,19 +13,8 @@
     "default_popup": "popup/popup.html"
   },
   "options_page": "options/options.html",
-  "content_scripts":[
-    {
-      "matches": ["https://cnft.io/token/*", "http://cnft.io/token/*", "https://www.cnft.io/token/*", "http://www.cnft.io/token/*"],
-      "js": ["dependencies/jquery-3.6.0.min.js", "contentscript/cnftio.js"],
-      "css": []
-    }
-  ],
   "permissions": [
     "storage",
-    "contextMenus",
     "tabs"
-  ],
-  "host_permissions": [
-    "https://cnft.io/token/*"
   ]
 }

@@ -33,7 +33,7 @@ function generate_tokenref_url(project_name_tokenref){
 
 function generate_cnftio_url(project_name_cnftio){
   if (project_name_cnftio == null){
-    return "https://cnft.io/marketplace"
+    return "https://cnft.io"
   }else{
     return "https://cnft.io/project/" + project_name_cnftio
   }
