@@ -42,15 +42,3 @@ $(function(){
 
   $("#current_project_select").on("change", handle_select)
 })
-
-// todo: ---- pre-release ----
-// todo: create github
-// todo: github link in popup and options
-// todo: ask for permission for images
-
-// todo: ---- features ----
-// todo: add new projects
-// todo: fetch projects from web
-
-// todo: ---- organisatorisch ----
-// todo: Entwicklerinformationen, Spendelink, github link, discord link

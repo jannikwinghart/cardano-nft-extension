@@ -1,7 +1,7 @@
 
 function generate_cnftjungle_url(project_name_cnftjungle){
   if (project_name_cnftjungle == null){
-    return "https://cnftjungle.io/collections"
+    return "https://cnftjungle.io"
   }else{
     return "https://cnftjungle.io/collections/" + project_name_cnftjungle
   }
