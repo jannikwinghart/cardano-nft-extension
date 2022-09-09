@@ -1,0 +1,290 @@
+:root {
+  /* https://coolors.co/201d1e-3a3335-e0df59-f1dedc */
+  /* https://coolors.co/011013-032026-086172-53d8f3-ecfbfe */
+  --bright-color: #ECFBFE;
+  --dark-color: #011013;
+  --dark-color2: rgb(3, 32, 38);
+  --dark-color-opaque: rgba(3, 32, 38, 0.6);
+  --accent-color: #53D8F3;
+}
+
+html {
+  --height: 400px;
+  height: var(--height);
+  min-height: var(--height);
+  max-height: var(--height);
+  width: calc(var(--height)/1.6180339887498948);
+  min-width: calc(var(--height)/1.6180339887498948);
+  max-width: calc(var(--height)/1.6180339887498948);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+body {
+  /* todo: replace with gradient & clipping */
+  /*background: var(--dark-color) url(/img/Background.png) no-repeat;
+  background-size: 250px 400px;
+  background-position: bottom;*/
+  background-color: var(--dark-color);
+  color: var(--bright-color);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: var(--bright-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  box-shadow: 0px 3px 5px black;
+  width: 100%;
+  position: relative;
+}
+
+.header_title {
+  font-size: 1.20em;
+}
+
+.colored_character{
+  color: var(--accent-color);
+  font-size: 1.25em;
+}
+
+.content {
+  padding: 10px;
+}
+
+h2 {
+  margin: 0;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+h3 {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.section{
+  background-color: var(--dark-color-opaque);
+  padding: 5px;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 5px black;
+  width: calc(100%-30px);
+  border-radius: 3px;
+}
+
+.link_disabled{
+  pointer-events:none;
+}
+
+.link_disabled .project_link_image{
+  filter: grayscale(100%);
+}
+
+.project_link_image{
+  width: 100%;
+  border: 2px var(--dark-color) solid;
+}
+
+.project_link{
+  border:none;
+  position:relative;
+  cursor:pointer;
+  transition:200ms ease all;
+  outline:none;
+  width: 100px;
+  display:inline-block;
+  margin: 3px;
+}
+
+.project_link:hover img{
+  transition:200ms ease all;
+  box-shadow: 0px 0px 8px var(--accent-color);
+}
+
+#background_gradient{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  /*background: var(--dark-color);
+  background: linear-gradient(180deg, var(--dark-color) 70%, rgba(0,0,0,0) 100%);*/
+}
+
+#background_triangles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+}
+
+#background_triangle_1{
+  /* bottom center */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-color);
+  background: linear-gradient(180deg, var(--dark-color) 80%, var(--accent-color) 140%);
+  clip-path: polygon(0% 100%, 75% 100%, 50% 85%);
+}
+
+#background_triangle_2{
+  /* bottom left */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-color);
+  background: linear-gradient(315deg, var(--dark-color) 20%, var(--accent-color) 140%);
+  clip-path: polygon(0% 100%, 0% 80%, 50% 85%);
+}
+
+#background_triangle_3{
+  /* bottom center right */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-color);
+  background: linear-gradient(45deg, var(--dark-color) 20%, var(--accent-color) 140%);
+  clip-path: polygon(100% 75%, 75% 100%, 50% 85%);
+}
+
+#background_triangle_4{
+  /* bottom right */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-color);
+  background: linear-gradient(135deg, var(--dark-color) 80%, var(--accent-color) 140%);
+  clip-path: polygon(100% 75%, 75% 100%, 100% 100%);
+}
+
+#background_triangle_5{
+  /* mid center right */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-color);
+  background: linear-gradient(350deg, var(--dark-color) 20%, var(--accent-color) 140%);
+  clip-path: polygon(100% 75%, 60% 65%, 50% 85%);
+}
+
+#background_triangle_6{
+  /* mid center left */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-color);
+  background: linear-gradient(280deg, var(--dark-color) 30%, var(--accent-color) 160%);
+  clip-path: polygon(0% 80%, 60% 65%, 50% 85%);
+}
+
+#header_background_triangles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-color);
+  background: linear-gradient(180deg, var(--dark-color) -200%, var(--accent-color) 50%, var(--dark-color) 300%);
+}
+
+/* todo: triangles*/
+
+
+
+
+#current_project_select_container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+#current_project_select {
+  font-family: 'Arial';
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 7px 10px;
+  outline: 0;
+  border: 0px solid var(--dark-color);
+  border-radius: 0px;
+  background: var(--dark-color);
+  color: var(--bright-color);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#current_project_select::-ms-expand {
+  display: none;
+}
+
+#current_project_select:hover,
+#current_project_select:focus {
+  color: var(--bright-color);
+  background: var(--dark-color2);
+}
+
+#current_project_select_arrow {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0px 5px;
+  border-color: var(--bright-color) transparent transparent transparent;
+}
+
+#current_project_select:hover ~ #current_project_select_arrow,
+#current_project_select:focus ~ #current_project_select_arrow {
+    border-top-color: var(--dark-color);
+}
+
+#socials_flex_container{
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  clear:both;
+  width: 100%;
+}
+
+.socials_button{
+
+  width: 25px;
+  position: relative;
+  margin: 0px;
+}
+
+.socials_button img{
+  width: 100%;
+}

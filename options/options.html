@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CNFT Extension Options</title>
+    <script type="text/javascript" src="/dependencies/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/general/project_list.js"></script>
+    <script type="text/javascript" src="/options/options.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/options/options.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2 class="header_title"><span class="colored_character">C</span>ardano <span class="colored_character">N</span>FT <span class="colored_character">EXT</span>ension</h2>
+    </div>
+
+    <div id="header_spacer"></div>
+
+    <!-- todo: Describe Options -->
+    <div class="section" id="custom_project_metadata_section">
+      <h2>Custom project metadata</h2>
+
+      <div>
+        <h4>How it works</h4>
+        <p>
+          Currently only a few projects are supported by default.
+          You can add projects to your local configuration by uploading a custom metadata file.<br/>
+          To create a custom metadata file you can download the default project metadata below and use it as a template.
+          You can upload your custom metadata file below.
+        </p>
+        <p>
+          Changes on the custom metadata file will only be made to your local configuration.
+          If you want a project to be added to the default configuration for all users during the next update, contact me on discord (link below).
+        </p>
+
+        <h4>Current custom project metadata</h4>
+        <table id="custom_project_metadata_list_table">
+          <tr>
+            <th>Project Name</th>
+            <th>cnft.io</th>
+            <th>cnft.tools</th>
+            <th>cnftjungle.io</th>
+            <th>opencnft.io</th>
+            <th>overrides default</th>
+          </tr>
+        </table>
+        <br/>
+        <button class="neon_button" id="clear_custom_metadata_button">Clear custom metadata</button>
+        <br/>
+
+        <h4>Download current project metadata</h4>
+        <a id="default_metadata_file_download_link"><button class="metadata_file_download_button neon_button">Download Project metadata (default)</button></a>
+        <a id="custom_metadata_file_download_link"><button class="metadata_file_download_button neon_button">Download Project metadata (custom)</button></a>
+        <a id="effective_metadata_file_download_link"><button class="metadata_file_download_button neon_button">Download effective Project metadata (default + custom)</button></a>
+
+        <h4>Upload custom metadata for projects</h4>
+        <button class="neon_button" id="metadata_file_upload_button">Select file</button>
+        <input type="file" id="metadata_file_upload" accept=".json" style="display:none">
+        <span id="metadata_file_upload_filename">No file selected</span>
+        <button class="neon_button" id="import">Upload</button>
+        <br/><br/>
+        </div>
+    </div>
+
+    <div class="section" id="license_section">
+      <h2>Open Source Attribution</h2>
+      <br/>
+      <div>This Extension includes following Open Source software code:</div>
+      <div>
+        <table>
+          <tr>
+            <th>
+              Software
+            </th>
+            <th>
+              Information
+            </th>
+            <th>
+              License Text
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <b>jQuery v3.6.0</b>
+            </td>
+            <td>
+              Copyright (c) OpenJS Foundation and other contributors - <a href="jquery.org/license">License Information</a>
+            </td>
+            <td>
+              <a href="https://tldrlegal.com/license/mit-license#summary">MIT License</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="section" id="socials_section">
+      <div id="socials_flex_container">
+        <div class="socials_button" id="socials_button_discord">
+          <a href="https://discord.gg/jsNvpzcNJk" target="_blank">
+            <img src="/img/discord.png" alt="discord">
+          </a>
+        </div>
+        <div class="socials_button" id="socials_button_github">
+          <a href="https://github.com/jannikwinghart/cardano-nft-extension" target="_blank">
+            <img src="/img/github.png" alt="github">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="background_triangles">
+      <div id="background_triangle_1"></div>
+      <div id="background_triangle_2"></div>
+      <div id="background_triangle_3"></div>
+      <div id="background_triangle_4"></div>
+      <div id="background_triangle_5"></div>
+      <div id="background_triangle_6"></div>
+    </div>
+  </body>
+</html>

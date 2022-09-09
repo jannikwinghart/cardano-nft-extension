@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CNFT Extension</title>
+    <script type="text/javascript" src="/dependencies/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/general/project_list.js"></script>
+    <script type="text/javascript" src="/popup/set_links.js"></script>
+    <script type="text/javascript" src="/popup/parse_url.js"></script>
+    <script type="text/javascript" src="/popup/popup.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/popup/popup.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2 class="header_title"><span class="colored_character">C</span>ardano <span class="colored_character">N</span>FT <span class="colored_character">EXT</span>ension</h2>
+    </div>
+    <div class="content">
+      <div class="section" id="selection_section">
+        <!-- recent projects dropdown -->
+        <h3>Project</h3>
+        <div id="current_project_select_container">
+          <select name="current_project_select" id="current_project_select"></select>
+          <div id="current_project_select_arrow"></div>
+        </div>
+      </div>
+
+      <div class="section" id="analytics_link_section">
+        <!-- link section -->
+        <h3>Analytics</h3>
+        <!-- cnftjungle -->
+        <a href="https://www.cnftjungle.io/collections/" id="project_link_cnftjungle" class="project_link" target="_blank">
+          <img src="/img/cnftjungle.png" alt="cnftjungle.io" class="project_link_image"/>
+          <!--span class="no_link_tooltip" id="project_link_cnftjungle_tooltip">No Link available</span-->
+        </a>
+
+        <!-- cnft.tools -->
+        <a href="https://cnft.tools/" id="project_link_cnfttools" class="project_link" target="_blank">
+          <img src="/img/cnfttools.png" alt="cnft.tools" class="project_link_image"/>
+          <!--span class="no_link_tooltip" id="project_link_cnfttools_tooltip">No Link available</span-->
+        </a>
+        <br/>
+
+        <!-- opencnft -->
+        <a href="https://opencnft.io/" id="project_link_opencnft" class="project_link" target="_blank">
+          <img src="/img/opencnft.png" alt="opencnft.io" class="project_link_image"/>
+          <!--span class="no_link_tooltip" id="project_link_opencnft_tooltip">No Link available</span-->
+        </a>
+
+        <!-- tokenref -->
+        <!--a href="https://www.tokenref.com/" id="project_link_tokenref" class="project_link" target="_blank">
+          <img src="/img/tokenref.png" alt="tokenref.io" class="project_link_image"/>
+          <!--span class="no_link_tooltip" id="project_link_tokenref_tooltip">No Link available</span-->
+        <!--/a-->
+      </div>
+
+      <div class="section" id="marketplaces_link_section">
+        <!-- link section -->
+        <h3>Marketplaces</h3>
+        <!-- cnft.io -->
+        <a href="http://www.cnft.io" id="project_link_cnftio" class="project_link" target="_blank">
+          <img src="/img/cnftio.png" alt="CNFT.io" class="project_link_image"/>
+          <!--span class="no_link_tooltip" id="project_link_cnftio_tooltip">No Link available</span-->
+        </a>
+
+        <!-- nftjam -->
+        <a href="https://nftjam.io/" id="project_link_nftjam" class="project_link" target="_blank">
+          <img src="/img/nftjam.png" alt="nftjam.io" class="project_link_image"/>
+          <!--span class="no_link_tooltip" id="project_link_cnftanalytics_tooltip">No Link available</span-->
+        </a>
+
+        <!-- genesis -->
+        <a href="https://www.genesishouse.io/" id="project_link_genesis" class="project_link" target="_blank">
+          <img src="/img/genesis.png" alt="genesis.io" class="project_link_image"/>
+          <!--span class="no_link_tooltip" id="project_link_opencnft_tooltip">No Link available</span-->
+        </a>
+        <br/>
+      </div>
+
+      <div class="section" id="general_links_section">
+        <h3>General Links</h3>
+        <!-- cnft.social -->
+        <a href="https://cnft.social/hub" id="project_link_cnftsocial" class="project_link" target="_blank">
+          <img src="/img/cnftsocial.png" alt="cnft.social" class="project_link_image"/>
+        </a>
+        <br/>
+      </div>
+
+
+      <!-- todo: media buttons discord github -->
+      <div class="section" id="socials_section">
+        <div id="socials_flex_container">
+          <div class="socials_button" id="socials_button_discord">
+            <a href="https://discord.gg/jsNvpzcNJk" target="_blank">
+              <img src="/img/discord.png" alt="discord">
+            </a>
+          </div>
+          <div class="socials_button" id="socials_button_github">
+            <a href="https://github.com/jannikwinghart/cardano-nft-extension" target="_blank">
+              <img src="/img/github.png" alt="github">
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="background_gradient"></div>
+    <div id="background_triangles">
+      <div id="background_triangle_1"></div>
+      <div id="background_triangle_2"></div>
+      <div id="background_triangle_3"></div>
+      <div id="background_triangle_4"></div>
+      <div id="background_triangle_5"></div>
+      <div id="background_triangle_6"></div>
+    </div>
+  </body>
+</html>
