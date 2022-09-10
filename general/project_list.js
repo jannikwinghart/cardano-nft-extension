@@ -11,6 +11,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": null,
     "genesis_name": null,
+    "website_name":"https://pinup.gallery/",
+    "discord_name":"jC3z9J5Wye",
+    "twitter_name":"CNFT_Pinups",
     "override":false
   },
   "AdaSenshi Ninja": {
@@ -21,6 +24,9 @@ default_project_list = {
     "tokenref_name": "adasenshininja",
     "nftjam_name": null,
     "genesis_name": "153",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Andels": {
@@ -31,6 +37,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": "andels",
     "genesis_name": "189",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "BabyAlienClub": {
@@ -41,6 +50,9 @@ default_project_list = {
     "tokenref_name": "babyalienclub",
     "nftjam_name": "baby-alien",
     "genesis_name": "50",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Baby Dragon": {
@@ -51,6 +63,9 @@ default_project_list = {
     "tokenref_name": "babydragon",
     "nftjam_name": null,
     "genesis_name": "275",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "CardanoBeans": {
@@ -61,6 +76,9 @@ default_project_list = {
     "tokenref_name": "cardanobeans",
     "nftjam_name": null,
     "genesis_name": "437",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "CardanoCity": {
@@ -71,6 +89,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": null,
     "genesis_name": "53",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "CardanoKeys": {
@@ -81,6 +102,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": null,
     "genesis_name": "754",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Clay Nation": {
@@ -91,6 +115,9 @@ default_project_list = {
     "tokenref_name": "claynation",
     "nftjam_name": "claynation",
     "genesis_name": "47",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "CryptoDino": {
@@ -101,6 +128,9 @@ default_project_list = {
     "tokenref_name": "cryptodino",
     "nftjam_name": "crypto-dino",
     "genesis_name": "49",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "HighSteaksNFT": {
@@ -111,6 +141,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": null,
     "genesis_name": "203",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "HOSKY C(ash grab)NFT": {
@@ -121,6 +154,9 @@ default_project_list = {
     "tokenref_name": "hoskynft",
     "nftjam_name": "hosky-cashgrab",
     "genesis_name": "2127",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "LionLegends": {
@@ -131,6 +167,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": "lionlegends",
     "genesis_name": "484",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Pavia": {
@@ -141,6 +180,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": "pavia",
     "genesis_name": "276",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Rhino Generation": {
@@ -151,6 +193,9 @@ default_project_list = {
     "tokenref_name": "rhinogeneration",
     "nftjam_name": "rhino-generation",
     "genesis_name": "62",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "ShapesADA": {
@@ -161,6 +206,9 @@ default_project_list = {
     "tokenref_name": "shapesada",
     "nftjam_name": null,
     "genesis_name": "40",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "TigerSociety Tigers": {
@@ -171,6 +219,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": null,
     "genesis_name": "168",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Yummi Universe - Naru": {
@@ -180,6 +231,9 @@ default_project_list = {
     "opencnft_name": "yummi-universe-naru",
     "nftjam_name": "yummi-universe-naru",
     "genesis_name": "68",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Boss Cat Rocket Club": {
@@ -189,6 +243,9 @@ default_project_list = {
     "opencnft_name": "boss-cat-rocket-club",
     "nftjam_name": "bosscatrocketclub",
     "genesis_name": "2827",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Chilled Kongs": {
@@ -198,6 +255,9 @@ default_project_list = {
     "opencnft_name": null,
     "nftjam_name": "chilledkongs",
     "genesis_name": "2442",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "The Mandrillz": {
@@ -207,6 +267,9 @@ default_project_list = {
     "opencnft_name": "the-mandrillz",
     "nftjam_name": null,
     "genesis_name": null,
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Derp Birds": {
@@ -216,6 +279,9 @@ default_project_list = {
     "opencnft_name": "derp-birds",
     "nftjam_name": "derp-birds",
     "genesis_name": 56,
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Cardano Village": {
@@ -225,6 +291,9 @@ default_project_list = {
     "opencnft_name": null,
     "nftjam_name": "cardanovillage",
     "genesis_name": "2479",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Ape Nation": {
@@ -234,6 +303,9 @@ default_project_list = {
     "opencnft_name": "ape-nation",
     "nftjam_name": null,
     "genesis_name": null,
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "The Ape Society": {
@@ -243,6 +315,9 @@ default_project_list = {
     "opencnft_name": "the-adapes-society",
     "nftjam_name": "TheADApesSociety",
     "genesis_name": null,
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   "Safari Squad": {
@@ -252,6 +327,9 @@ default_project_list = {
     "opencnft_name": "safari-squad",
     "nftjam_name": null,
     "genesis_name": null,
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },
   /*"": {
@@ -261,6 +339,9 @@ default_project_list = {
     "opencnft_name": "",
     "nftjam_name": null,
     "genesis_name": "",
+    "website_name": null,
+    "discord_name": null,
+    "twitter_name": null,
     "override":false
   },*/
 }

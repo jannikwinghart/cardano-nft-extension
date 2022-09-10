@@ -55,6 +55,26 @@ function generate_genesis_url(project_name_genesis){
   }
 }
 
+function generate_website_url(project_name_website){
+  return project_name_website
+}
+
+function generate_discord_url(project_name_discord){
+  if (project_name_discord == null){
+    return null
+  }else{
+    return "https://discord.gg/" + project_name_discord
+  }
+}
+
+function generate_twitter_url(project_name_twitter){
+  if (project_name_twitter == null){
+    return null
+  }else{
+    return "https://twitter.com/" + project_name_twitter
+  }
+}
+
 function generate_url(website_name, website_project_name){
   console.log(website_name)
   if(website_name == "cnftjungle"){
@@ -71,6 +91,12 @@ function generate_url(website_name, website_project_name){
     url = generate_nftjam_url(website_project_name)
   }else if(website_name == "genesis"){
     url = generate_genesis_url(website_project_name)
+  }else if(website_name == "website"){
+    url = generate_website_url(website_project_name)
+  }else if(website_name == "discord"){
+    url = generate_discord_url(website_project_name)
+  }else if(website_name == "twitter"){
+    url = generate_twitter_url(website_project_name)
   }
   console.log(url)
   return url
@@ -78,7 +104,11 @@ function generate_url(website_name, website_project_name){
 
 function update_link(website_name, project_list, project_key){
   if(project_key == "null"){
-    $("#project_link_"+website_name).attr("href", generate_url(website_name, null)).removeClass("link_disabled");
+    if(website_name == "website" || website_name == "discord" || website_name == "twitter"){
+      $("#project_link_"+website_name).attr("href", generate_url(website_name, null)).addClass("link_disabled");
+    }else{
+      $("#project_link_"+website_name).attr("href", generate_url(website_name, null)).removeClass("link_disabled");
+    }
   }else{
     var website_project_name = project_list[project_key][website_name + "_name"]
     console.log("website_project_name " + website_project_name)
@@ -100,7 +130,10 @@ function select_project(project_list, project_key){
     "tokenref",
     "cnftio",
     "nftjam",
-    "genesis"
+    "genesis",
+    "twitter",
+    "discord",
+    "website"
   ]
 
   website_names.forEach(website_name => {

@@ -30,7 +30,8 @@ function parse_cnfttools_url(project_list, url){
 
 function parse_cnftjungle_url(project_list, url){
   console.log(url)
-  parsed_project_name = url.split("collections/")[1];
+  url_without_args = url.split("?")[0];
+  parsed_project_name = url_without_args.split("collections/")[1];
   console.log("parsed " + parsed_project_name);
 
   parsed_project_key = Object.keys(project_list).find(key => project_list[key]["cnftjungle_name"] == parsed_project_name)
@@ -86,7 +87,18 @@ function parse_genesis_url(project_list, url){
 
   parsed_project_key = Object.keys(project_list).find(key => project_list[key]["genesis_name"] == parsed_project_name)
   console.log(parsed_project_key)
-  console.log(project_list["AdaSenshi Ninja"]);
+
+  return parsed_project_key
+}
+
+function parse_twitter_url(project_list, url){
+  console.log(url)
+  url_second_part = url.split("twitter.com/")[1];
+  parsed_project_name = url_second_part.split("/")[0];
+  console.log("parsed " + parsed_project_name);
+
+  parsed_project_key = Object.keys(project_list).find(key => project_list[key]["twitter_name"] == parsed_project_name)
+  console.log(parsed_project_key)
 
   return parsed_project_key
 }
@@ -113,29 +125,9 @@ function parse_url(project_list){
         parsed_project_key = parse_nftjam_url(project_list, url)
       }else if(url.includes("genesishouse.io/collections")){
         parsed_project_key = parse_genesis_url(project_list, url)
+      }else if(url.includes("twitter.com")){
+        parsed_project_key = parse_twitter_url(project_list, url)
       }
-
-      /*if(parsed_project_key == null){
-        new Promise((resolve, reject) => {
-          if(url.includes("cnft.io/token")){
-            // todo: load stored_selected_project_key
-            chrome.storage.sync.get("cnftio_token_project_name", function(data){
-              cnftio_token_project_name = data["cnftio_token_project_name"]
-              parsed_project_key = Object.keys(project_list).find(key => project_list[key]["cnftio_name"] == cnftio_token_project_name)
-              resolve(parsed_project_key)
-            });
-          }else {
-            // load selected project
-            chrome.storage.sync.get("selected_project", function(selected_project){
-              stored_selected_project_key = selected_project["selected_project"]
-              resolve(stored_selected_project_key)
-            });
-          }
-        }).then((stored_selected_project_key) => resolve(stored_selected_project_key));
-
-      }else{
-        resolve(parsed_project_key)
-      }*/
 
       resolve(parsed_project_key)
     });
