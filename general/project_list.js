@@ -37,9 +37,21 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": "andels",
     "genesis_name": "189",
-    "website_name": null,
-    "discord_name": null,
+    "website_name": "https://andels.io/",
+    "discord_name": "qXuZzsVJmp",
     "twitter_name": null,
+    "override":false
+  },
+  "Ape Nation": {
+    "cnftio_name": "ape-nation",
+    "cnfttools_name": "apenation",
+    "cnftjungle_name": "58b9f55e6ea9828dea7a8d9f49420171c6360f99b5e6e86de5fdb644",
+    "opencnft_name": "ape-nation",
+    "nftjam_name": null,
+    "genesis_name": null,
+    "website_name": "https://apenationcnft.com/",
+    "discord_name": "apenationcnft",
+    "twitter_name": "Ape_NationNFT",
     "override":false
   },
   "BabyAlienClub": {
@@ -50,9 +62,9 @@ default_project_list = {
     "tokenref_name": "babyalienclub",
     "nftjam_name": "baby-alien",
     "genesis_name": "50",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://babyalienclub.com/",
+    "discord_name": "4QfY4KvWaq",
+    "twitter_name": "BabyAlienClub",
     "override":false
   },
   "Baby Dragon": {
@@ -63,9 +75,21 @@ default_project_list = {
     "tokenref_name": "babydragon",
     "nftjam_name": null,
     "genesis_name": "275",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://babydragonnft.com/",
+    "discord_name": "gNUwk6Uq25",
+    "twitter_name": "BabyDragonNFTs",
+    "override":false
+  },
+  "Boss Cat Rocket Club": {
+    "cnftio_name": "boss-cat-rocket-club",
+    "cnfttools_name": "bosscatrocketclub",
+    "cnftjungle_name": "c364930bd612f42e14d156e1c5410511e77f64cab8f2367a9df544d1",
+    "opencnft_name": "boss-cat-rocket-club",
+    "nftjam_name": "bosscatrocketclub",
+    "genesis_name": "2827",
+    "website_name": "https://bosscatrocketclub.com/",
+    "discord_name": "bosscatrocketclub",
+    "twitter_name": "BossCatRC",
     "override":false
   },
   "CardanoBeans": {
@@ -76,9 +100,9 @@ default_project_list = {
     "tokenref_name": "cardanobeans",
     "nftjam_name": null,
     "genesis_name": "437",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://cardanobeans.com/",
+    "discord_name": "PqFnZ2DQ2c",
+    "twitter_name": "CardanoBeans",
     "override":false
   },
   "CardanoCity": {
@@ -89,9 +113,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": null,
     "genesis_name": "53",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://cardanocity.io/",
+    "discord_name": "FDNwHBxpzs",
+    "twitter_name": "CardanoCity",
     "override":false
   },
   "CardanoKeys": {
@@ -102,9 +126,33 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": null,
     "genesis_name": "754",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://cardanokeys.com/",
+    "discord_name": "P4sz3vEQ69",
+    "twitter_name": "CardanoKeys",
+    "override":false
+  },
+  "Cardano Village": {
+    "cnftio_name": "cardano-village",
+    "cnfttools_name": "cardanovillage",
+    "cnftjungle_name": "2c763e2db8337324df122fffa38e0d97ecdf53d139025a0e1b6d6b97",
+    "opencnft_name": null,
+    "nftjam_name": "cardanovillage",
+    "genesis_name": "2479",
+    "website_name": "https://cardanovillage.io/",
+    "discord_name": "D43C653t9x",
+    "twitter_name": "CARDANOVILLAGE",
+    "override":false
+  },
+  "Chilled Kongs": {
+    "cnftio_name": "chilled-kongs",
+    "cnfttools_name": "chilledkongs",
+    "cnftjungle_name": "c56d4cceb8a8550534968e1bf165137ca41e908d2d780cc1402079bd",
+    "opencnft_name": null,
+    "nftjam_name": "chilledkongs",
+    "genesis_name": "2442",
+    "website_name": "https://chilledkongs.com/",
+    "discord_name": "8GCPwKZVqc",
+    "twitter_name": "ChilledKongs",
     "override":false
   },
   "Clay Nation": {
@@ -115,9 +163,9 @@ default_project_list = {
     "tokenref_name": "claynation",
     "nftjam_name": "claynation",
     "genesis_name": "47",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://www.claynation.io/",
+    "discord_name": "F24tA7Eyed",
+    "twitter_name": "claymates",
     "override":false
   },
   "CryptoDino": {
@@ -128,9 +176,21 @@ default_project_list = {
     "tokenref_name": "cryptodino",
     "nftjam_name": "crypto-dino",
     "genesis_name": "49",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://www.cryptodino.io/",
+    "discord_name": "Mgvphj5JpW",
+    "twitter_name": "cryptodino_io",
+    "override":false
+  },
+  "Derp Birds": {
+    "cnftio_name": "derp-birds",
+    "cnfttools_name": "derpbirds",
+    "cnftjungle_name": "b92f6473f18d4b78733d022fd89f3cacc1484fab6eddfd3c5d4b9494",
+    "opencnft_name": "derp-birds",
+    "nftjam_name": "derp-birds",
+    "genesis_name": 56,
+    "website_name": "https://derpbirds.io/",
+    "discord_name": "VNqe87kkEK",
+    "twitter_name": "DerpBirdsNFT",
     "override":false
   },
   "HighSteaksNFT": {
@@ -141,9 +201,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": null,
     "genesis_name": "203",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "http://highsteaksnft.com/#/",
+    "discord_name": "sKmfjN3zAS",
+    "twitter_name": "HighSteaksNft",
     "override":false
   },
   "HOSKY C(ash grab)NFT": {
@@ -154,9 +214,9 @@ default_project_list = {
     "tokenref_name": "hoskynft",
     "nftjam_name": "hosky-cashgrab",
     "genesis_name": "2127",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://hosky.io/",
+    "discord_name": "hosky",
+    "twitter_name": "hoskytoken",
     "override":false
   },
   "LionLegends": {
@@ -167,9 +227,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": "lionlegends",
     "genesis_name": "484",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://lionlegends.io/",
+    "discord_name": "F6mjCVP7jS",
+    "twitter_name": "LionLegendsNFT",
     "override":false
   },
   "Pavia": {
@@ -180,9 +240,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": "pavia",
     "genesis_name": "276",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://www.pavia.io/",
+    "discord_name": "pavia",
+    "twitter_name": "Pavia_io",
     "override":false
   },
   "Rhino Generation": {
@@ -194,8 +254,20 @@ default_project_list = {
     "nftjam_name": "rhino-generation",
     "genesis_name": "62",
     "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "discord_name": "wUJ5M9MAWw",
+    "twitter_name": "rhinogennft",
+    "override":false
+  },
+  "Safari Squad": {
+    "cnftio_name": "safari-squad",
+    "cnfttools_name": "safarisquad",
+    "cnftjungle_name": "7d757d36ce79e19f224fd956aafe078d40f0999f944f36e42491def2",
+    "opencnft_name": "safari-squad",
+    "nftjam_name": null,
+    "genesis_name": null,
+    "website_name": "https://www.safarisquad.io/",
+    "discord_name": "VRUdyVwXdM",
+    "twitter_name": "safarisquadnft",
     "override":false
   },
   "ShapesADA": {
@@ -207,8 +279,32 @@ default_project_list = {
     "nftjam_name": null,
     "genesis_name": "40",
     "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "discord_name": "4e9eufB8na",
+    "twitter_name": "shapesada",
+    "override":false
+  },
+  "The Ape Society": {
+    "cnftio_name": "the-ape-society",
+    "cnfttools_name": "theapesociety",
+    "cnftjungle_name": "dac355946b4317530d9ec0cb142c63a4b624610786c2a32137d78e25",
+    "opencnft_name": "the-adapes-society",
+    "nftjam_name": "TheADApesSociety",
+    "genesis_name": null,
+    "website_name": "https://www.theapesociety.io/",
+    "discord_name": "theapesociety",
+    "twitter_name": "the_ape_society",
+    "override":false
+  },
+  "The Mandrillz": {
+    "cnftio_name": "the-mandrillz",
+    "cnfttools_name": "mandrillz",
+    "cnftjungle_name": "3f75c1332868430e28e156f6309836de8df19b620ab604c166741836",
+    "opencnft_name": "the-mandrillz",
+    "nftjam_name": null,
+    "genesis_name": null,
+    "website_name": "https://themandrillz.io/#/",
+    "discord_name": "themandrillz",
+    "twitter_name": "themandrillz",
     "override":false
   },
   "TigerSociety Tigers": {
@@ -219,9 +315,9 @@ default_project_list = {
     "tokenref_name": null,
     "nftjam_name": null,
     "genesis_name": "168",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://www.tigersocietynft.com/",
+    "discord_name": "TZSdKJRHpz",
+    "twitter_name": "tigersocietynft",
     "override":false
   },
   "Yummi Universe - Naru": {
@@ -231,105 +327,9 @@ default_project_list = {
     "opencnft_name": "yummi-universe-naru",
     "nftjam_name": "yummi-universe-naru",
     "genesis_name": "68",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
-    "override":false
-  },
-  "Boss Cat Rocket Club": {
-    "cnftio_name": "boss-cat-rocket-club",
-    "cnfttools_name": "bosscatrocketclub",
-    "cnftjungle_name": "c364930bd612f42e14d156e1c5410511e77f64cab8f2367a9df544d1",
-    "opencnft_name": "boss-cat-rocket-club",
-    "nftjam_name": "bosscatrocketclub",
-    "genesis_name": "2827",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
-    "override":false
-  },
-  "Chilled Kongs": {
-    "cnftio_name": "chilled-kongs",
-    "cnfttools_name": "chilledkongs",
-    "cnftjungle_name": "c56d4cceb8a8550534968e1bf165137ca41e908d2d780cc1402079bd",
-    "opencnft_name": null,
-    "nftjam_name": "chilledkongs",
-    "genesis_name": "2442",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
-    "override":false
-  },
-  "The Mandrillz": {
-    "cnftio_name": "the-mandrillz",
-    "cnfttools_name": "mandrillz",
-    "cnftjungle_name": "3f75c1332868430e28e156f6309836de8df19b620ab604c166741836",
-    "opencnft_name": "the-mandrillz",
-    "nftjam_name": null,
-    "genesis_name": null,
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
-    "override":false
-  },
-  "Derp Birds": {
-    "cnftio_name": "derp-birds",
-    "cnfttools_name": "derpbirds",
-    "cnftjungle_name": "b92f6473f18d4b78733d022fd89f3cacc1484fab6eddfd3c5d4b9494",
-    "opencnft_name": "derp-birds",
-    "nftjam_name": "derp-birds",
-    "genesis_name": 56,
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
-    "override":false
-  },
-  "Cardano Village": {
-    "cnftio_name": "cardano-village",
-    "cnfttools_name": "cardanovillage",
-    "cnftjungle_name": "2c763e2db8337324df122fffa38e0d97ecdf53d139025a0e1b6d6b97",
-    "opencnft_name": null,
-    "nftjam_name": "cardanovillage",
-    "genesis_name": "2479",
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
-    "override":false
-  },
-  "Ape Nation": {
-    "cnftio_name": "ape-nation",
-    "cnfttools_name": "apenation",
-    "cnftjungle_name": "58b9f55e6ea9828dea7a8d9f49420171c6360f99b5e6e86de5fdb644",
-    "opencnft_name": "ape-nation",
-    "nftjam_name": null,
-    "genesis_name": null,
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
-    "override":false
-  },
-  "The Ape Society": {
-    "cnftio_name": "the-ape-society",
-    "cnfttools_name": "theapesociety",
-    "cnftjungle_name": "dac355946b4317530d9ec0cb142c63a4b624610786c2a32137d78e25",
-    "opencnft_name": "the-adapes-society",
-    "nftjam_name": "TheADApesSociety",
-    "genesis_name": null,
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
-    "override":false
-  },
-  "Safari Squad": {
-    "cnftio_name": "safari-squad",
-    "cnfttools_name": "safarisquad",
-    "cnftjungle_name": "7d757d36ce79e19f224fd956aafe078d40f0999f944f36e42491def2",
-    "opencnft_name": "safari-squad",
-    "nftjam_name": null,
-    "genesis_name": null,
-    "website_name": null,
-    "discord_name": null,
-    "twitter_name": null,
+    "website_name": "https://yummiuniverse.com/",
+    "discord_name": "yummiuniverse",
+    "twitter_name": "YummiUniverse",
     "override":false
   },
   /*"": {

@@ -93,7 +93,7 @@ function parse_genesis_url(project_list, url){
 
 function parse_twitter_url(project_list, url){
   console.log(url)
-  url_second_part = url.split("twitter.com/")[1];
+  url_second_part = url.split("twitter.com/")[1].split("?")[0];
   parsed_project_name = url_second_part.split("/")[0];
   console.log("parsed " + parsed_project_name);
 
